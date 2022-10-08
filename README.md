@@ -12,31 +12,31 @@ You are asked to implement and use the Weighted Quick Union with Path Compressio
 your solution on the given partial implementation provided with src.zip file. You are not 
 allowed to use union-find implementations provided in alg4.jar.
 Sample Input File-1:
-1 0 1 0 1
-1 1 0 1 0
-0 1 1 0 1
-1 0 1 0 1
-1 0 1 1 1
-Sample Output-1:
-Allows water to drain
+# 1 0 1 0 1
+# 1 1 0 1 0
+# 0 1 1 0 1
+# 1 0 1 0 1
+# 1 0 1 1 1
+# Sample Output-1:
+# Allows water to drain
 Sample Input File-2:
-1 0 0 1 1
-0 1 1 1 0
-1 0 0 0 1
-1 0 0 0 1
-1 1 0 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 0 0 0 1
+# 1 0 0 0 1
+# 1 1 0 1 1
 Sample Output-2:
-Don’t allow water to drain
+# Don’t allow water to drain
 Sample Input File-3:
-1 0 0 1 1 1 1 0 0 0
-0 1 1 1 0 0 0 1 1 0
-1 0 0 1 1 0 0 1 0 0
-1 0 0 0 1 1 1 0 0 0
-1 1 0 1 1 1 1 0 0 0
-1 0 1 1 0 1 1 1 1 0
-0 0 0 0 1 1 0 0 0 0
-1 0 1 1 1 1 1 0 0 0
-0 1 0 1 1 0 1 0 1 0
-1 1 0 1 0 1 1 0 0 0
+# 1 0 0 1 1 1 1 0 0 0
+# 1 1 1 0 0 0 1 1 0 0
+# 1 0 0 1 1 0 0 1 0 0
+# 1 0 0 0 1 1 1 0 0 0
+# 1 1 0 1 1 1 1 0 0 0
+# 1 0 1 1 0 1 1 1 1 0
+# 0 0 0 0 1 1 0 0 0 0
+# 1 0 1 1 1 1 1 0 0 0
+# 0 1 0 1 1 0 1 0 1 0
+# 1 1 0 1 0 1 1 0 0 0
 Sample Output-3:
-Allows water to drain
+# Allows water to drain
